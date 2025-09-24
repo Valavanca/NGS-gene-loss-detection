@@ -1,0 +1,29 @@
+{
+    "train_X_shape": [
+        42,
+        119
+    ],
+    "train_y": {
+        "0": 21,
+        "1": 21
+    },
+    "label_imbalance": 1.0,
+    "n_folds": 42,
+    "seed": 67,
+    "num_boost_round": 100,
+    "best_num_boost_round": 16,
+    "cv_best_metrics": {
+        "train-logloss-mean": 0.17382648862837774,
+        "train-logloss-std": 0.014927078401925453,
+        "test-logloss-mean": 0.2663364115925062,
+        "test-logloss-std": 0.33042126237256997
+    },
+    "feature_importance": {
+        "chr10.158_NC": 0.6093800663948059,
+        "chr10.162_NC": 0.33985385298728943,
+        "chr10.159_NC": 0.2807239890098572,
+        "chr10.141_NC": 0.2536461055278778,
+        "chr10.139_NC": 0.23210829496383667,
+        "chr10.153_NC": 0.21447215974330902
+    }
+}

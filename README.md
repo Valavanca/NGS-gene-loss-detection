@@ -1,6 +1,6 @@
-# NGS Gene Loss Detection
+# NGS PTEN Gene Loss Detection
 
-A project for predicting gene loss from Next-Generation Sequencing (NGS) data using XGBoost models. The models are trained on TSO500 sequencing data.
+A project for predicting PTEN gene loss from Next-Generation Sequencing (NGS) data using XGBoost models. The models are trained on TSO500 (TruSight Oncology 500) sequencing data.
 
 ## Setup
 
@@ -32,9 +32,6 @@ The project uses two trained XGBoost models for different prediction tasks:
 - **Zygosity prediction** (`models/zygosity_p2_733/`)
 - **Bioinformatics call** (`models/bioinf_p7_715/`)
 
-### Download Models
-
-Models are stored as project artifacts. Download and extract them to the `models/` folder:
 Each model directory should contain:
 - `model.json` - Trained XGBoost model
 - `info.json` - Model parameters and metrics

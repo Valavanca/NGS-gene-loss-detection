@@ -1,0 +1,6 @@
+{
+    "transformations": {
+    "poly_deriv_log": {
+        "degree": 7
+    }
+}}

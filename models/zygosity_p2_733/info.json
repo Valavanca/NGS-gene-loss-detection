@@ -1,0 +1,48 @@
+{
+    "experiment_name": "p2_733",
+    "model_params": {
+        "learning_rate": 0.1164813305114614,
+        "max_depth": 3,
+        "min_child_weight": 2,
+        "subsample": 0.629273564088229,
+        "colsample_bytree": 0.6,
+        "reg_alpha": 0.0007652055082149236,
+        "reg_lambda": 0.0010087795232010305,
+        "objective": "multi:softprob",
+        "num_class": 3,
+        "eval_metric": "mlogloss",
+        "seed": 67
+    },
+    "metrics": {
+        "cv_train-mlogloss-mean": 0.12338094417931693,
+        "cv_train-mlogloss-std": 0.003246250916479654,
+        "cv_test-mlogloss-mean": 0.43875771787549767,
+        "cv_test-mlogloss-std": 0.5662260186000705,
+        "test_accuracy": 0.7647058823529411,
+        "test_logloss": 0.6437713416969884,
+        "test_precision": 0.7555555555555555,
+        "test_recall": 0.8194444444444445,
+        "test_f1": 0.7658730158730158,
+        "test_auc": 0.920138888888889,
+        "test_confusion_matrix": [
+            [
+                5,
+                1,
+                0
+            ],
+            [
+                1,
+                5,
+                2
+            ],
+            [
+                0,
+                0,
+                3
+            ]
+        ]
+    },
+    "train_on_cols": "bins+FC+TCC",
+    "add_poly_degree": 2,
+    "scale_pos_weight": 1
+}

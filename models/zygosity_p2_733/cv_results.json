@@ -1,0 +1,6 @@
+{
+    "cv_train-mlogloss-mean": 0.12338094417931693,
+    "cv_train-mlogloss-std": 0.003246250916479654,
+    "cv_test-mlogloss-mean": 0.43875771787549767,
+    "cv_test-mlogloss-std": 0.5662260186000705
+}
