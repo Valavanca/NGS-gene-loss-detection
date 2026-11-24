@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "NGS PTEN Gene Loss Detection"
+type: software
+authors:
+  - family-names: Husak
+    given-names: Oleksandr
+license: MIT
+repository-code: "https://github.com/Valavanca/NGS-gene-loss-detection"
+keywords:
+  - PTEN
+  - copy number variation
+  - panel sequencing
+  - TSO500
+  - XGBoost
+preferred-citation:
+  type: article
+  title: "Machine learning uncovers previously undetectable genetic deletions in cancer panel sequencing"
+  authors:
+    - family-names: Kerle
+      given-names: Irina A.
+      orcid: "https://orcid.org/0000-0002-3650-488X"
+    - family-names: Husak
+      given-names: Oleksandr
+    - family-names: Gross
+      given-names: Thomas
+    - family-names: Hartig
+      given-names: Andreas
+    - family-names: Prause
+      given-names: Rebecca
+    - family-names: Richter
+      given-names: Daniela
+    - family-names: Brückmann
+      given-names: Sascha
+    - family-names: Werner
+      given-names: Maximilian
+    - family-names: Kögler
+      given-names: Anja
+    - family-names: Hanf
+      given-names: Dorothea
+    - family-names: Möhrmann
+      given-names: Lino
+    - family-names: William
+      given-names: Doreen
+      orcid: "https://orcid.org/0000-0001-7824-5073"
+    - family-names: Wendt
+      given-names: Karsten
+    - family-names: Pfarr
+      given-names: Nicole
+      orcid: "https://orcid.org/0000-0002-5977-5375"
+    - family-names: Mogler
+      given-names: Carolin
+      orcid: "https://orcid.org/0000-0003-3400-7254"
+    - family-names: Aust
+      given-names: Daniela E.
+    - family-names: Schröck
+      given-names: Evelin
+    - family-names: Heining
+      given-names: Christoph
+    - family-names: Glimm
+      given-names: Hanno
+  journal: "npj Precision Oncology"
+  volume: 10
+  issue: 1
+  start: 397
+  year: 2026
+  month: 10
+  date-published: 2026-10-16
+  doi: "10.1038/s41698-026-01756-9"
+  url: "https://www.nature.com/articles/s41698-026-01756-9"
